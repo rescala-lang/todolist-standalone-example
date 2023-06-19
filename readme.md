@@ -41,15 +41,13 @@ We have not implemented the following things:
 
 ## Running
 
-You need sbt beforehand. Last tested using sbt 1.8.2.
+You need sbt beforehand. Last tested using sbt 1.9.0.
 
 Run with:
 
 ~~~
-cd "REScala main repository"
-$ sbt "project todolist" deploy           # get scala dependencies and compile scala to js
-cd "todolist subfolder (this file)"
-$ firefox target/index.html               # open todomvc in browser
+$ sbt deploy                       # get scala dependencies and compile scala to js
+$ firefox target/index.html        # open generated file in browser
 ~~~
 
 
